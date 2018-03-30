@@ -46,7 +46,7 @@
                                         <label class="control-label">{{ $caption['launched_date'] }}
                                         </label>
                                         <input type="text" name="launched_date"
-                                               class="form-control datepicker" value="{{ \Carbon\Carbon::now() }}">
+                                               class="form-control" value="{{ \Carbon\Carbon::now() }}">
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                                         <label class="control-label">{{ $caption['completion_date'] }}
                                         </label>
                                         <input type="text" name="completion_date"
-                                               class="form-control datepicker" value="{{ \Carbon\Carbon::now() }}">
+                                               class="form-control" value="{{ \Carbon\Carbon::now() }}">
                                     </div>
                                 </div>
                             </div>
