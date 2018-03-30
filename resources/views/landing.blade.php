@@ -10,10 +10,11 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <div class="page-header" style="background-image: url('https://images.unsplash.com/photo-1498063401574-13cbee350467?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');">
+                        <div class="page-header" style="background-image: url('{{ asset('images/landing/MIllerz.png') }}');">
                             <div class="filter"></div>
                             <div class="content-center">
                                 <div class="container">
@@ -44,7 +45,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <div class="page-header" style="background-image: url('https://images.unsplash.com/photo-1482690205767-61deebe15ef7?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=')">
+                        <div class="page-header" style="background-image: url('{{ asset('images/landing/Scarletz.png') }}')">
                             <div class="filter"></div>
                             <div class="content-center">
                                 <div class="container">
@@ -75,7 +76,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="page-header" style="background-image: url('https://images.unsplash.com/photo-1498063669468-89723a87123d?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=')">
+                        <div class="page-header" style="background-image: url('{{ asset('images/landing/Atwater.png') }}')">
                             <div class="filter"></div>
                             <div class="content-center">
                                 <div class="container">
@@ -99,6 +100,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="page-header" style="background-image: url('{{ asset('images/landing/Parc3.png') }}')">
+                            <div class="filter"></div>
+                            <div class="content-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-7 ml-auto text-right">
+                                            <h2 class="title">Premium Offers for Venice</h1>
+                                                <h5>Now you have no excuses, it's time to surprise your clients, your competitors, and why not, the world. You probably won't have a better chance to show off all your potential if it's not by designing a website for your own agency or web studio.</h5>
+                                                <br />
+                                                <div class="buttons">
+
+                                                    <a href="#pablo" class="btn btn-neutral btn-link btn-lg">
+                                                        <i class="fa fa-share-alt"></i> Share Offer
+                                                    </a>
+                                                    <a href="#pablo" class="btn btn-success btn-round btn-lg">
+                                                        <i class="fa fa-shopping-cart"></i> Shop Now
+                                                    </a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <a class="left carousel-control carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
