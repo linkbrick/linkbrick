@@ -10,7 +10,7 @@
                     </div>
                     <div class="card-content">
                         <h4 class="card-title">Update @{{ project_name }}</h4>
-                        <form id="updateProject" method="post" action="{{ route('projects.update',['project' => $project->id]) }}"
+                        <form id="updateProject" method="post" action="{{ route('projects.update',['project' => $project->slug]) }}"
                               enctype="multipart/form-data">
                             {{ csrf_field() }}
                             {{ method_field('PUT') }}
