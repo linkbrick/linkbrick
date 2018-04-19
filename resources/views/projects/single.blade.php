@@ -196,7 +196,7 @@
                                             <a class="pull-left" href="#paper-kit">
                                                 <div class="avatar big-avatar">
                                                     <img class="media-object" alt="64x64"
-                                                         src="{{ asset('images/faces/kaci-baum-2.jpg') }}">
+                                                         src="{{ asset('images/faces/avatar.jpg') }}">
                                                 </div>
                                             </a>
                                             <div class="media-body">
