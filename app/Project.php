@@ -15,7 +15,7 @@ class Project extends Model implements HasMedia
         'value_for_rental_yield','family_investment','suitability_for_expatriates','students',
         'mixed_development','security_level','density','down_payment', 'location',
         'maintenance_fee','booking_fee','number_of_floor','number_of_unit', 'number_of_block',
-        'land_area','name','project_tag_line','status','excerpt'];
+        'land_area','name','project_tag_line','status','excerpt','developer'];
 
     const COLUMN_CAPTION = [
         'id' => 'ID',
@@ -48,6 +48,7 @@ class Project extends Model implements HasMedia
         'suitability_for_expatriates' => 'Suitable for Expatriates',
         'students' => 'Students',
         'excerpt' => 'Excerpt',
+        'developer' => 'Developer'
     ];
 
     public function getRouteKeyName() {

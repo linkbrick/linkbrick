@@ -257,6 +257,13 @@
                                         <input type="text" name="students" class="form-control" >
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="form-group label-floating ">
+                                        <label class="control-label">{{ $caption['developer'] }}
+                                        </label>
+                                        <input type="text" name="developer" class="form-control" >
+                                    </div>
+                                </div>
                             </div>
 
 
