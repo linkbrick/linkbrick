@@ -18,12 +18,13 @@ class CreateAgentsTable extends Migration
             $table->integer('user_id')->nullable()->index();
             $table->string('name');
             $table->string('position');
-            $table->string('excerpt');
-            $table->text('description');
-            $table->string('email');
-            $table->string('contact_no');
-            $table->string('type');
-            $table->integer('sequence');
+            $table->string('excerpt')->nullable();
+            $table->text('description')->nullable();
+            $table->string('email')->nullable();
+            $table->string('contact_no')->nullable();
+            $table->string('type')->nullable();
+            $table->integer('sequence')->nullable();
+            $table->string('status')->default('ACTIVE');
             $table->timestamps();
         });
     }

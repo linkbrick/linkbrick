@@ -64,6 +64,12 @@ Tip 3: you can change the color of the sidebar with data-background-color="white
                             </a>
                         </li>
                         <li>
+                            <a href="{{ route('agents.index') }}">
+                                <span class="sidebar-mini"> A </span>
+                                <span class="sidebar-normal"> Agents </span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="#">
                                 <span class="sidebar-mini"> U </span>
                                 <span class="sidebar-normal"> Users </span>
