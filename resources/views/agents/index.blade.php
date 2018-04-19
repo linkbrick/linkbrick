@@ -40,7 +40,7 @@
                                                 <a href="{{route('agents.edit',['agent' => $agent->id])}}"
                                                    class="col-md-3 btn btn-info"><i
                                                             class="material-icons">edit</i></a>
-                                                <a href="{{route('agents.show',['agent' => $agent->slug])}}"
+                                                <a href="{{route('agents.show',['agent' => $agent->id])}}"
                                                    class="col-md-3 btn btn-warning"><i
                                                             class="material-icons">view_headline</i></a>
                                             </div>
