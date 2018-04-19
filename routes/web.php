@@ -6,6 +6,7 @@ Route::get('/', function () {
 });
 
 Route::get('/project/{project}', 'PageController@project')->name('projects');
+Route::get('/team/{agent}', 'PageController@team')->name('team');
 
 
 Auth::routes();

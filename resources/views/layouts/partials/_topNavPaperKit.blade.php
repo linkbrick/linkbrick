@@ -26,11 +26,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">Our Team</a>
-                    <ul class="dropdown-menu dropdown-menu-right dropdown-danger">
-                        <a class="dropdown-item" href="../sections.html#headers"><i class="nc-icon nc-tile-56"></i>&nbsp; Team A</a>
-                        <a class="dropdown-item" href="../sections.html#features"><i class="nc-icon nc-settings"></i>&nbsp; Team B</a>
-                    </ul>
+                    <a class="nav-link" href="{{ url('team/all') }}" >A Team</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="javascript:void(0)">More</a>

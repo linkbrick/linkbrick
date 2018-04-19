@@ -25,7 +25,7 @@ class AgentController extends Controller
     public function store(Request $request)
     {
         // store the corporates
-        $agent = Agent::create($request->only(['name','position','excerpt','description','email','contact_no']));
+        $agent = Agent::create($request->only(['name','position','excerpt','description','email','contact_no','type','sequence','facebook_url','instagram_url']));
 
         if ($request->file('agent_image') !== null) {
             $agent->addMedia($request->file('agent_image'))->toMediaCollection('agent_image');
@@ -44,7 +44,7 @@ class AgentController extends Controller
 
     public function update(Request $request, Agent $agent)
     {
-        $agent->fill($request->only(['name','position','excerpt','description','email','contact_no']))->save();
+        $agent->fill($request->only(['name','position','excerpt','description','email','contact_no','type','sequence','facebook_url','instagram_url']))->save();
 
         if($request->input('agent_image') == "true"){
             $agent->clearMediaCollection('agent_image');

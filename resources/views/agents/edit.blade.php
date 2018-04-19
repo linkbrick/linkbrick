@@ -51,6 +51,35 @@
                                 </div>
                             </div>
 
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="label-control">{{ $caption['type'] }}
+                                        </label>
+                                        <div class="checkbox-radios">
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="type" @if($agent->type=='agent') checked="true" @endif value="agent" > Agent
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="type" @if($agent->type=='team_lead') checked="true" @endif value="team_lead"> Team Lead
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">{{ $caption['sequence'] }}
+                                        </label>
+                                        <input type="text" name="sequence"
+                                               class="form-control" value="{{ $agent->sequence }}">
+                                    </div>
+                                </div>
+                            </div>
+
 
 
                             <div class="row">
@@ -68,7 +97,7 @@
                                     <div class="form-group label-floating ">
                                         <label class="control-label">{{ $caption['description'] }}
                                         </label>
-                                        <textarea class="form-control" name="description" rows="8">{{ $agent->excerpt }}</textarea>
+                                        <textarea class="form-control" name="description" rows="8">{{ $agent->description }}</textarea>
                                     </div>
                                 </div>
                             </div>

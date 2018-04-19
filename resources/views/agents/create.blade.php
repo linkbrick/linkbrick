@@ -51,6 +51,53 @@
                                 </div>
                             </div>
 
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group label-floating ">
+                                        <label class="control-label">{{ $caption['facebook_url'] }}
+                                        </label>
+                                        <input type="text" name="facebook_url" class="form-control" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">{{ $caption['instagram_url'] }}
+                                        </label>
+                                        <input type="text" name="instagram_url"
+                                               class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="label-control">{{ $caption['type'] }}
+                                        </label>
+                                        <div class="checkbox-radios">
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="type" checked="true" value="agent"> Agent
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="type" value="team_lead"> Team Lead
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">{{ $caption['sequence'] }}
+                                        </label>
+                                        <input type="text" name="sequence"
+                                               class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
 
 
                             <div class="row">

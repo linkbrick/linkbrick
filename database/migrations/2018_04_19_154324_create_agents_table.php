@@ -24,6 +24,8 @@ class CreateAgentsTable extends Migration
             $table->string('contact_no')->nullable();
             $table->string('type')->nullable();
             $table->integer('sequence')->nullable();
+            $table->string('facebook_url')->nullable();
+            $table->string('instagram_url')->nullable();
             $table->string('status')->default('ACTIVE');
             $table->timestamps();
         });

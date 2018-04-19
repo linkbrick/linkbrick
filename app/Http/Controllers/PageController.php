@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Agent;
 use App\Project;
 use Illuminate\Http\Request;
 
@@ -13,5 +14,11 @@ class PageController extends Controller
         $propertyInfo = $this->propertyInfo;
         $caption = Project::COLUMN_CAPTION;
         return view('projects.single',compact('project','propertyInfo','caption'));
+    }
+
+    public function team()
+    {
+        $agents = Agent::active()->get();
+        return view('agents.team',compact('agents'));
     }
 }

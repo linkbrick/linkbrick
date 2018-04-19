@@ -3,7 +3,7 @@
         <nav class="pull-left">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="/">
                         Landing
                     </a>
                 </li>
@@ -19,7 +19,7 @@
             <script>
                 document.write(new Date().getFullYear())
             </script>
-            <a href="http://accendo.com.my"> Linkbrick Sdn Bhd </a>, made with love for a better web
+            <a href="#"> Linkbrick Sdn Bhd </a>, made with love for a better web
         </p>
     </div>
 </footer>
