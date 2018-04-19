@@ -2,7 +2,12 @@
 @section('content')
     <div class="blog-page">
         <div class="page-header" data-parallax="true"
-             style="background-image: url( {{ $project->getMedia('banner')->first()->getUrl() }}  )">
+             @if( $project->getMedia('banner')->count() )
+             style="background-image: url( {{ $project->getMedia('banner')->first()->getUrl() }}  )"
+             @else
+             style="background-image: url('https://dummyimage.com/1280x400/b8b8b8/ffffff.jpg')"
+                @endif
+        >
             <div class="filter"></div>
             <div class="content-center">
                 <div class="motto">
@@ -32,7 +37,12 @@
                             <div class="col-md-8 ml-auto mr-auto">
                                 <a href="javascrip: void(0);">
                                     <div class="card" data-radius="none"
-                                         style="background-image: url({{ $project->getMedia('main')->first()->getUrl() }});"></div>
+                                         @if($project->getMedia('main')->count() )
+                                         style="background-image: url({{ $project->getMedia('main')->first()->getUrl() }});"
+                                         @else
+                                         style="background-image: url('https://dummyimage.com/400x300/b8b8b8/ffffff.jpg')"
+                                         @endif
+                                    ></div>
                                     <p class="image-thumb text-center">Photo by Cam Adams</p>
                                 </a>
                                 <div class="article-content">
@@ -68,7 +78,12 @@
 
                                     <h4 class="title">Facilities</h4>
                                     <div class="card" data-radius="none"
-                                         style="background-image: url({{ $project->getMedia('facility')->first()->getUrl() }});">
+                                         @if($project->getMedia('facility')->count())
+                                         style="background-image: url({{ $project->getMedia('facility')->first()->getUrl() }});"
+                                         @else
+                                         style="background-image: url('https://dummyimage.com/400x300/b8b8b8/ffffff.jpg');"
+                                         @endif
+                                    >
 
                                     </div>
 
@@ -213,7 +228,8 @@
                                                 <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Price</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Property Type</a>
+                                                <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Property
+                                                    Type</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" data-toggle="tab" href="#messages" role="tab">Developer</a>
