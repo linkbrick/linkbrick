@@ -52,6 +52,26 @@
                                 </div>
                             </div>
 
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="description">
+                                        <h6 class="info-title">{{ $caption['email'] }}</h6>
+                                        <p class="description">
+                                            {{ $agent->email }}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description">
+                                        <h6 class="info-title">{{ $caption['contact_no'] }}</h6>
+                                        <p class="description">
+                                            {{ $agent->contact_no }}
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
                             <section>
                                 <h5>Images</h5>
                                 <div class="row">

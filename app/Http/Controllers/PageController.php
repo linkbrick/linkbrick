@@ -18,7 +18,7 @@ class PageController extends Controller
 
     public function team()
     {
-        $agents = Agent::active()->get();
+        $agents = Agent::active()->OrderBy('sequence')->get();
         return view('agents.team',compact('agents'));
     }
 }
