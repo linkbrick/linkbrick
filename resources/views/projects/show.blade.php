@@ -290,6 +290,15 @@
                                     </div>
 
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="description">
+                                        <h6 class="info-title">{{ $caption['developer'] }}</h6>
+                                        <p class="description">
+                                            {{ $project->developer }}
+                                        </p>
+                                    </div>
+
+                                </div>
                             </div>
 
 
