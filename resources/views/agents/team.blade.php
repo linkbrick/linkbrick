@@ -67,6 +67,7 @@
         </div>
 {{--End of Team Lead--}}
 
+    {{--Team Member--}}
     <div class="team-1">
         <div class="container">
             <div class="row">
@@ -81,9 +82,7 @@
                         <div class="col-md-3">
                             <div class="card card-profile card-plain">
                                 <div class="card-avatar">
-                                    <a href="#avatar">
-                                        <img src="{{ $agent->getMedia('agent_image')->first()->getUrl()  }}" alt="...">
-                                    </a>
+                                    <a href="#avatar"><img src="{{ $agent->getMedia('agent_image')->first()->getUrl()  }}" alt="..."></a>
                                 </div>
                                 <div class="card-body">
                                     <a href="#paper-kit">
@@ -97,8 +96,8 @@
                                     </p>
                                 </div>
                                 <div class="card-footer text-center">
-                                    <a href="{{ $agent->facebook_url }}" class="btn btn-neutral btn-link btn-just-icon"><i class="fa fa-facebook"></i></a>
-                                    <a href="{{ $agent->instagram_url }}" class="btn btn-neutral btn-link btn-just-icon"><i class="fa fa-instagram"></i></a>
+                                    <a href="{{ $agent->facebook_url }}" class="btn btn-link btn-just-icon btn-twitter"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{ $agent->instagram_url }}" class="btn btn-link btn-just-icon btn-twitter"><i class="fa fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -107,4 +106,5 @@
             </div>
         </div>
     </div>
+    {{--End Of Team Member--}}
 @endsection
