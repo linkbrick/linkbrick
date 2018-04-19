@@ -17,11 +17,11 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">Projects</a>
                     <ul class="dropdown-menu dropdown-menu-right dropdown-danger">
-                        <a class="dropdown-item" href="../sections.html#headers"> Scarletz</a>
+                        <a class="dropdown-item" href="{{ url('/project/scarletz') }}"> Scarletz</a>
                         <a class="dropdown-item" href="{{ url('/project/millerz') }}"> Millerz</a>
-                        <a class="dropdown-item" href="../sections.html#blogs">Parc 3</a>
-                        <a class="dropdown-item" href="../sections.html#teams">Southlink</a>
-                        <a class="dropdown-item" href="../sections.html#projects">Atwater</a>
+                        <a class="dropdown-item" href="{{ url('/project/parc-3') }}">Parc 3</a>
+                        <a class="dropdown-item" href="{{ url('/project/southlink') }}">Southlink</a>
+                        <a class="dropdown-item" href="{{ url('/project/atwater') }}">Atwater</a>
                     </ul>
                 </li>
 
