@@ -96,8 +96,8 @@
                                     </p>
                                 </div>
                                 <div class="card-footer text-center">
-                                    <a href="{{ $agent->facebook_url }}" class="btn btn-link btn-just-icon btn-twitter"><i class="fa fa-facebook"></i></a>
-                                    <a href="{{ $agent->instagram_url }}" class="btn btn-link btn-just-icon btn-twitter"><i class="fa fa-instagram"></i></a>
+                                    <a href="{{ $agent->facebook_url }}" class="btn btn-link btn-just-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{ $agent->instagram_url }}" class="btn btn-link btn-just-icon btn-instagram"><i class="fa fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
