@@ -5,7 +5,7 @@
              @if( $project->getMedia('banner')->count() )
              style="background-image: url( {{ $project->getMedia('banner')->first()->getUrl() }}  )"
              @else
-             style="background-image: url('https://dummyimage.com/1280x400/b8b8b8/ffffff.jpg')"
+             style="background-image: url('https://dummyimage.com/1440x400/b8b8b8/ffffff.jpg')"
                 @endif
         >
             <div class="filter"></div>
@@ -40,7 +40,7 @@
                                          @if($project->getMedia('main')->count() )
                                          style="background-image: url({{ $project->getMedia('main')->first()->getUrl() }});"
                                          @else
-                                         style="background-image: url('https://dummyimage.com/400x300/b8b8b8/ffffff.jpg')"
+                                         style="background-image: url('https://dummyimage.com/730x430/b8b8b8/ffffff.jpg')"
                                          @endif
                                     ></div>
                                     <p class="image-thumb text-center">Photo by Cam Adams</p>
@@ -81,7 +81,7 @@
                                          @if($project->getMedia('facility')->count())
                                          style="background-image: url({{ $project->getMedia('facility')->first()->getUrl() }});"
                                          @else
-                                         style="background-image: url('https://dummyimage.com/400x300/b8b8b8/ffffff.jpg');"
+                                         style="background-image: url('https://dummyimage.com/730x430/b8b8b8/ffffff.jpg');"
                                          @endif
                                     >
 
