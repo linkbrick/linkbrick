@@ -72,12 +72,57 @@
                                 </div>
                             </div>
 
+
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="description">
+                                        <h6 class="info-title">{{ $caption['facebook_url'] }}</h6>
+                                        <p class="description">
+                                            <a href="{{ $agent->facebook_url }}" target="_blank" class="btn btn-link btn-just-icon btn-facebook"><i class="fa fa-facebook"></i>
+                                                Facebook Page
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description">
+                                        <h6 class="info-title">{{ $caption['instagram_url'] }}</h6>
+                                        <p class="description">
+                                            <a id="agent_instagram" href="{{ $agent->instagram_url }}" class="btn btn-link btn-just-icon btn-instagram"><i class="fa fa-instagram"></i>
+                                                Instagram Page
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="description">
+                                        <h6 class="info-title">{{ $caption['type'] }}</h6>
+                                        <p class="description">
+                                            @if($agent->type == 'Agent') Agent @else Team Leader @endif
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description">
+                                        <h6 class="info-title">{{ $caption['sequence'] }}</h6>
+                                        <p class="description">
+                                            {{ $agent->sequence }}
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
                             <section>
-                                <h5>Images</h5>
+                                <h5>Profile Image</h5>
                                 <div class="row">
                                     <div class="col-md-4 text-center">
                                         <div class="description">
-                                            <h6 class="info-title">Profile Image</h6>
                                             <p class="description">
                                                 <img class="img" src="{{ $agent->getMedia('agent_image')->first()->getUrl()  }}" />
                                             </p>
