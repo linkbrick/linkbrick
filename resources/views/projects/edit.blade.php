@@ -266,6 +266,18 @@
                                 </div>
                             </div>
 
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group label-floating ">
+                                        <label class="control-label">{{ $caption['excerpt'] }}
+                                        </label>
+                                        <textarea class="form-control" name="excerpt" rows="3">
+
+                                        </textarea>
+                                    </div>
+                                </div>
+                            </div>
+
 
                             <section>
                                 <h5>Images</h5>
