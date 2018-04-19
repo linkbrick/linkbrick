@@ -217,63 +217,63 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="related-articles">
-                            <h3 class="title">Related development</h3>
-                            <legend></legend>
-                            <div class="container">
-                                <div class="nav-tabs-navigation">
-                                    <div class="nav-tabs-wrapper">
-                                        <ul id="tabs" class="nav nav-tabs" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Price</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Property
-                                                    Type</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" data-toggle="tab" href="#messages" role="tab">Developer</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div id="my-tab-content" class="tab-content text-center">
-                                    <div class="tab-pane active" id="home" role="tabpanel">
+                        {{--<div class="related-articles">--}}
+                            {{--<h3 class="title">Related development</h3>--}}
+                            {{--<legend></legend>--}}
+                            {{--<div class="container">--}}
+                                {{--<div class="nav-tabs-navigation">--}}
+                                    {{--<div class="nav-tabs-wrapper">--}}
+                                        {{--<ul id="tabs" class="nav nav-tabs" role="tablist">--}}
+                                            {{--<li class="nav-item">--}}
+                                                {{--<a class="nav-link active" data-toggle="tab" href="#home" role="tab">Price</a>--}}
+                                            {{--</li>--}}
+                                            {{--<li class="nav-item">--}}
+                                                {{--<a class="nav-link" data-toggle="tab" href="#profile" role="tab">Property--}}
+                                                    {{--Type</a>--}}
+                                            {{--</li>--}}
+                                            {{--<li class="nav-item">--}}
+                                                {{--<a class="nav-link" data-toggle="tab" href="#messages" role="tab">Developer</a>--}}
+                                            {{--</li>--}}
+                                        {{--</ul>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div id="my-tab-content" class="tab-content text-center">--}}
+                                    {{--<div class="tab-pane active" id="home" role="tabpanel">--}}
 
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <a href="#"><img
-                                                            src="{{asset('images/landing/damir-bosnjak.jpg') }}"
-                                                            alt="Rounded Image"
-                                                            class="img-rounded img-responsive"></a>
-                                                <p class="blog-title">My Review of Pitchfork’s ‘Indie 500’ Album
-                                                    Review</p>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <a href="#"><img src="{{asset('images/landing/por7o.jpg') }}"
-                                                                 alt="Rounded Image"
-                                                                 class="img-rounded img-responsive"></a>
-                                                <p class="blog-title">Top Events This Month</p>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <a href="#"><img
-                                                            src="{{asset('images/landing/jeff-sheldon.jpg') }}"
-                                                            alt="Rounded Image"
-                                                            class="img-rounded img-responsive"></a>
-                                                <p class="blog-title">You Should Get Excited About Virtual Reality.
-                                                    Here’s
-                                                    Why.</p>
-                                            </div>
-                                        </div>
+                                        {{--<div class="row">--}}
+                                            {{--<div class="col-md-4">--}}
+                                                {{--<a href="#"><img--}}
+                                                            {{--src="{{asset('images/landing/damir-bosnjak.jpg') }}"--}}
+                                                            {{--alt="Rounded Image"--}}
+                                                            {{--class="img-rounded img-responsive"></a>--}}
+                                                {{--<p class="blog-title">My Review of Pitchfork’s ‘Indie 500’ Album--}}
+                                                    {{--Review</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-md-4">--}}
+                                                {{--<a href="#"><img src="{{asset('images/landing/por7o.jpg') }}"--}}
+                                                                 {{--alt="Rounded Image"--}}
+                                                                 {{--class="img-rounded img-responsive"></a>--}}
+                                                {{--<p class="blog-title">Top Events This Month</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-md-4">--}}
+                                                {{--<a href="#"><img--}}
+                                                            {{--src="{{asset('images/landing/jeff-sheldon.jpg') }}"--}}
+                                                            {{--alt="Rounded Image"--}}
+                                                            {{--class="img-rounded img-responsive"></a>--}}
+                                                {{--<p class="blog-title">You Should Get Excited About Virtual Reality.--}}
+                                                    {{--Here’s--}}
+                                                    {{--Why.</p>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
 
-                                    </div>
-                                    <div class="tab-pane" id="profile" role="tabpanel"><p>Tabs 222.</p></div>
-                                    <div class="tab-pane" id="messages" role="tabpanel"><p>Otherss.....</p></div>
-                                </div>
+                                    {{--</div>--}}
+                                    {{--<div class="tab-pane" id="profile" role="tabpanel"><p>Tabs 222.</p></div>--}}
+                                    {{--<div class="tab-pane" id="messages" role="tabpanel"><p>Otherss.....</p></div>--}}
+                                {{--</div>--}}
 
 
-                            </div>
-                        </div>
+                            {{--</div>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
             </div>
