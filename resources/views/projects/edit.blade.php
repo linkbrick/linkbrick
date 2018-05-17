@@ -388,7 +388,7 @@
                                                     <span class="btn btn-info btn-simple btn-file">
                                                         <span class="fileinput-new">Select file</span>
                                                         <span class="fileinput-exists">Change</span>
-                                                        <input type="file" name="faciity_image"/>
+                                                        <input type="file" name="facility_image"/>
 
                                                     </span>
 
