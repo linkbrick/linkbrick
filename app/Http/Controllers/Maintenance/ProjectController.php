@@ -92,7 +92,7 @@ class ProjectController extends Controller
 
         if ($request->file('facility_image') !== null) {
             $project->clearMediaCollection('facility');
-            $project->addMedia($request->file('faciity_image'))->toMediaCollection('facility');
+            $project->addMedia($request->file('facility_image'))->toMediaCollection('facility');
         }
 
         $project->save();
